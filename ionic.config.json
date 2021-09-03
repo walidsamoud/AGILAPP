@@ -1,0 +1,7 @@
+{
+  "name": "AGILAPP",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
