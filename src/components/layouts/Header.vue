@@ -28,8 +28,6 @@
 </template>
 
 <script>
-import { Storage } from '@capacitor/storage';
-
 export default ({
     props:{
         haveCode: Boolean,
@@ -46,34 +44,14 @@ export default ({
             localStorage.removeItem('user')
             window.location.href= '/login'
         },
-        isMobile() {
-            if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-                alert(1)
-                return 1
-            } else {
-                alert(0)
-                return 0
-            }
-        }
     },
     mounted(){
-        if( !this.isMobile() ){
             if(JSON.parse(localStorage.getItem('user'))==null || JSON.parse(localStorage.getItem('user'))==undefined || !JSON.parse(localStorage.getItem('user'))){
                 window.location.href= '/login'
             }else{
                 this.user_account= JSON.parse(localStorage.getItem('user'));
                 this.user_account.fullname= this.user_account.fullname.split(' ');
             }
-        }else{
-            Storage.set({
-                key: 'name',
-                value: 'Walid',
-            });
-
-            let { value } =  Storage.get({ key: 'name' });
-            alert(`Hello ${value}!`);
-            window.location.href= '/login'
-        }
     }
 })
 </script>

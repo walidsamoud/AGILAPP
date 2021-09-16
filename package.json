@@ -28,6 +28,7 @@
     "bootstrap": "^5.1.0",
     "bootstrap-vue": "^2.21.2",
     "cordova-plugin-geolocation": "^4.1.0",
+    "cordova-plugin-ionic": "5.5.0",
     "cordova-plugin-qrscanner": "^3.0.1",
     "core-js": "^3.6.5",
     "googlemaps-vue3": "^2.0.4",
