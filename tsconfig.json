@@ -36,5 +36,16 @@
 , "src/router/index.js"  ],
   "exclude": [
     "node_modules"
-  ]
+  ],
+  "styles": [
+    {
+      "input": "src/theme/variables.scss"
+    },
+    {
+      "input": "src/global.scss"
+    },
+    {
+      "input": "node_modules/bootstrap/dist/css/bootstrap.min.css"
+    }
+  ],
 }

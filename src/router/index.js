@@ -4,28 +4,148 @@ import Tabs from '../views/Tabs.vue'
 const routes = [
   {
     path: '/',
-    redirect: '/tabs/tab1'
+    redirect: '/splash'
   },
   {
-    path: '/tabs/',
+    path: '/',
     component: Tabs,
     children: [
       {
         path: '',
-        redirect: '/tabs/tab1'
+        component: () => import('@/views/Splash/Index.vue')
       },
       {
-        path: 'tab1',
-        component: () => import('@/views/Tab1.vue')
+        path: '/splash',
+        component: () => import('@/views/Splash/Index.vue')
       },
       {
-        path: 'tab2',
-        component: () => import('@/views/Tab2.vue')
-      },
-      {
-        path: 'tab3',
-        component: () => import('@/views/Tab3.vue')
-      }
+        path: '/qr',
+        meta:{
+            authRequired: false,
+            authorize: ['*']
+        },
+        component: () => import('../views/qr/Index.vue')
+    },
+    {
+        path: '/login',
+        name: 'Login',
+        meta:{
+            authRequired: false,
+            authorize: ['*']
+        },
+        index: 1,
+        component: () => import('../views/authentication/Login.vue')
+    },
+    {
+        path: '/home',
+        name: 'Home',
+        meta:{
+            authRequired: false,
+            authorize: ['*']
+        },
+        index: 2,
+        component: () => import('../views/home/Index.vue')
+    },
+    {
+        path: '/vendor/:id',
+        name: 'Vendor',
+        meta:{
+            authRequired: false,
+            authorize: ['*']
+        },
+        index: 3,
+        component: () => import('../views/vendor/Index.vue')
+    },
+    {
+        path: '/vendor/:id/queues',
+        name: 'Queues',
+        meta:{
+            authRequired: false,
+            authorize: ['*']
+        },
+        index: 4,
+        component: () => import('../views/vendor/Ticket.vue')
+    },
+    {
+        path: '/plans',
+        name: 'Plans',
+        meta:{
+            authRequired: false,
+            authorize: ['*']
+        },
+        index: 5,
+        component: () => import('../views/plans/Index.vue')
+    },
+    {
+        path: '/ticket_request/:id',
+        name: 'TicketRequest',
+        meta:{
+            authRequired: false,
+            authorize: ['*']
+        },
+        index: 5,
+        component: () => import('../views/plans/SignleTicketRequest.vue')
+    },
+    {
+        path: '/ticket/:uid',
+        name: 'Ticket',
+        meta:{
+            authRequired: false,
+            authorize: ['*']
+        },
+        index: 6,
+        component: () => import('../views/plans/SingleTicket.vue')
+    },
+    {
+        path: '/vendor/:id/book',
+        name: 'Book',
+        meta:{
+            authRequired: false,
+            authorize: ['*']
+        },
+        index: 7,
+        component: () => import('../views/vendor/Book.vue')
+    },
+    {
+        path: '/booking_request/:uid',
+        name: 'BookingRequest',
+        meta:{
+            authRequired: false,
+            authorize: ['*']
+        },
+        index: 8,
+        component: () => import('../views/plans/SingleBookingRequest.vue')
+    },
+    {
+        path: '/booking/:id',
+        name: 'Booking',
+        meta:{
+            authRequired: false,
+            authorize: ['*']
+        },
+        index: 9,
+        component: () => import('../views/plans/SingleBooking.vue')
+    },
+    {
+        path: '/stations',
+        name: 'Stations',
+        meta:{
+            authRequired: false,
+            authorize: ['*']
+        },
+        index: 10,
+        component: () => import('../views/stations/Index.vue')
+    },
+    {
+        path: '/profile',
+        name: 'Profile',
+        meta:{
+            authRequired: false,
+            authorize: ['*']
+        },
+        index: 11,
+        component: () => import('../views/profile/Index.vue')
+    }
     ]
   }
 ]

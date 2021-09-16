@@ -1,0 +1,6 @@
+{
+	"appId": "liberrex.ionic.agilapp",
+	"appName": "AGILAPP",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}

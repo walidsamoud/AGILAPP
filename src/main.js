@@ -23,10 +23,24 @@ import '@ionic/vue/css/display.css';
 /* Theme variables */
 import './theme/variables.css';
 
+// import { i18n } from './i18n/i18n'
+import VueQrcodeReader from "vue-qrcode-reader";
+import VueGoogleMaps from '@fawmi/vue-google-maps'
+import QrReader from 'vue3-qr-reader';
+
 const app = createApp(App)
   .use(IonicVue)
-  .use(router);
+  .use(router)
+  .use(VueQrcodeReader)
+  .use(QrReader)
+  .use(VueGoogleMaps, {
+      load: {
+          key: 'AIzaSyCCu5z_wOjyw1iBONIykXU8dms7RfOKwCQ',
+      },
+  });
+  // .use(i18n);
   
 router.isReady().then(() => {
-  app.mount('#app');
+  app.mount('#app')
+  // app.mount('#app');
 });

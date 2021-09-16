@@ -1,0 +1,393 @@
+{
+	"Account": {
+		"BookingItem": {
+			"CancelBooking": "Annuler la réservation",
+			"Date": "Date",
+			"Details": "Détails",
+			"ModalClose": "Fermer",
+			"ModalTitle": "Les détails de réservation",
+			"Services": "Services",
+			"Time": "Heure"
+		},
+		"Bookings": "Réservations",
+		"BookingsEmpty": {
+			"Archived": {
+				"Text": "Veuillez vérifier à nouveau plus tard ..",
+				"Title": "Aucune réservation archivée"
+			},
+			"Confirmed": {
+				"Text": "Veuillez vérifier à nouveau plus tard ..",
+				"Title": "Aucune réservation active"
+			},
+			"Pending": {
+				"Text": "Veuillez vérifier à nouveau plus tard ..",
+				"Title": "Aucune demande en attente"
+			}
+		},
+		"Logout": "Se déconnecter",
+		"PersonalDetails": "Détails personnels",
+		"RecentlyVisited": "Visité récemment",
+		"Settings": "Réglages",
+		"Tabs": {
+			"Archived": "Archive",
+			"Confirmed": "Confirmé",
+			"Pending": "En attendant"
+		},
+		"TicketItem": {
+			"CancelTicket": "Annuler le ticket",
+			"Details": "Détails",
+			"ModalClose": "Fermer",
+			"Number": "Numéro de billet",
+			"Queue": "Fille d'attente",
+			"Rank": "Rang",
+			"RequestTime": "Heure demandée",
+			"ServiceTime": "Temps de service",
+			"Services": "Services",
+			"WaitingTime": "Temps d'attente"
+		},
+		"Tickets": "Tickets",
+		"TicketsEmpty": {
+			"Archived": {
+				"Text": "Veuillez vérifier à nouveau plus tard ..",
+				"Title": "Aucun billet archivé"
+			},
+			"Confirmed": {
+				"Text": "Veuillez vérifier à nouveau plus tard ..",
+				"Title": "Aucun billet actif"
+			},
+			"Pending": {
+				"Text": "Veuillez vérifier à nouveau plus tard ..",
+				"Title": "Aucune demande en attente"
+			}
+		},
+		"UpdateMyDetails": "Modifier mon compte",
+		"UpdateMyDetailsSaveButton": "Sauvegarder les modifications",
+		"UpdateNotificationError": {
+			"Message": "Impossible de mettre à jour les informations de compte!",
+			"Title": "Pardon"
+		},
+		"UpdateNotificationSuccess": {
+			"Message": "Informations sur le compte mises à jour!",
+			"Title": "Réussi"
+		}
+	},
+	"Authentication": {
+		"AcceptTermsAndConditions": "J'accepte tous les termes et conditions.",
+		"AlreadyHasCode": "J'ai déjà un code de vérification",
+		"CodePlaceholder": "Code",
+		"Email": "Email",
+		"EnterPhoneNumber": "Entrer un numéro de téléphone",
+		"FirstName": "Prénom",
+		"LastName": "Nom de famille",
+		"LogIn": "S'identifier",
+		"Login": "S'identifier",
+		"NoAccountMatches": "Aucun compte ne correspond",
+		"PhoneIsAlreadyUsed": "est déjà utilisé!",
+		"PleaseRegister": "S'il vous plait enregistrez vous",
+		"Register": "S'inscrire",
+		"SendVerificationCode": "Envoyer le code de vérification",
+		"Image": "Image"
+	},
+	"Booking": {
+		"CancelNotificationError": {
+			"Message": "Impossible d'annuler la réservation",
+			"Title": "Pardon"
+		},
+		"CancelNotificationSuccess": {
+			"Message": "Réservation annulée avec succès!",
+			"Title": "Réussi"
+		}
+	},
+	"Categories": {
+		"Automotive": "Automobile",
+		"Banking": "Bancaire",
+		"Beauty": "Beauté",
+		"Government": "Gouvernement",
+		"Healthcare": "Soins de santé",
+		"Home": "Accueil",
+		"Providers": "Fournisseurs",
+		"Telecommunication": "Télécommunication",
+		"Title": "catégories"
+	},
+	"SubCategories": {
+		"Title": "Nos départements",
+		"Doctor": "Docteur"
+	},
+	"Organizations": {
+		"Home": "Accueil",
+		"Title": "Organisations",
+		"Branch": "Branche"
+	},
+	"Countries": {
+		"FR": "France",
+		"GB": "Grande Bretagne",
+		"RU": "Russie",
+		"TN": "Tunisie"
+	},
+	"Days": {
+		"Friday": "Vendredi",
+		"Monday": "Lundi",
+		"Saturday": "Samedi",
+		"Sunday": "Dimanche",
+		"Thursday": "Jeudi",
+		"Tuesday": "Mardi",
+		"Wednesday": "Mercredi"
+	},
+	"FAQ": {
+		"Accounts": "Comptes",
+		"Booking": "Réservation",
+		"GeneralHelp": "Aide générale",
+		"Policy": "Politique de confidentialité",
+		"QandAs": {
+			"Accounts": [
+				{
+					"A": "Pour créer un compte, cliquez sur le bouton bleu situé sur le côté droit du menu supérieur. Vous serez redirigé vers une page de connexion où vous devrez cliquer sur l'option d'enregistrement dans l'onglet. Vous devez sélectionner votre pays, entrer le numéro de téléphone et vos coordonnées personnelles. Cliquez sur le bouton d'enregistrement et vous serez redirigé vers votre compte Liberrex.",
+					"Q": "Comment créer un compte?"
+				},
+				{
+					"A": "Pour nous assurer que chaque compte est unique et n'appartient qu'à un seul client, nous demandons le numéro de téléphone et nous l'utilisons comme identifiant unique et personnel de chaque utilisateur.",
+					"Q": "Pourquoi dois-je fournir mon numéro de téléphone?"
+				},
+				{
+					"A": "Vos informations personnelles sont partagées avec le fournisseur de services, chaque fois que vous réservez ou rejoignez une liste d’attente, nous devons nous assurer que le fournisseur de services sait qui vous êtes.",
+					"Q": "Pourquoi dois-je fournir mon nom complet?"
+				},
+				{
+					"A": "Vous ne pouvez malheureusement pas, pour des raisons de sécurité. nous n'utilisons PAS le mode Invité ou les réservations / billets de liste d’attente ennuyeux.",
+					"Q": "Puis-je réserver ou rejoindre une liste d'attente en tant qu'invité?"
+				},
+				{
+					"A": "Vous pouvez supprimer votre compte en envoyant un e-mail à notre équipe d'assistance sur support@liberrex.com avec votre numéro de téléphone au format international.",
+					"Q": "Puis-je supprimer mon compte?"
+				}
+			],
+			"Booking": [
+				{
+					"A": "Pour réserver avec un fournisseur de services, vous pouvez simplement aller sur leur page et cliquer sur réserver maintenant en utilisant le bouton sur la barre latérale droite. Si vous n'êtes pas connecté, il vous sera demandé de vous connecter ou de créer un compte. Une fois connecté, vous devrez choisir la date, l'heure et les services souhaités, puis cliquer sur confirmer.",
+					"Q": "Comment réserver avec un fournisseur de services via Liberrex?"
+				},
+				{
+					"A": "Chaque réservation doit appartenir à un client spécifique, sans vos informations personnelles, nous ne serons pas en mesure de créer une réservation ou d'informer votre fournisseur de services.",
+					"Q": "Pourquoi dois-je être connecté avant de réserver?"
+				},
+				{
+					"A": "Toutes les demandes de réservation ne sont pas confirmées instantanément, cela dépend du fournisseur de services. Certains fournisseurs de services préfèrent examiner manuellement les demandes de réservation et certains établissent des règles qui leur permettront d'approuver ou de refuser automatiquement les demandes de réservation.",
+					"Q": "La réservation est-elle confirmée instantanément?"
+				},
+				{
+					"A": "Vous ne pouvez pas mettre à jour votre réservation mais certe vous pouvez l’annuler et recommencer une nouvelle réservation.",
+					"Q": "Puis-je mettre à jour ou annuler ma réservation?"
+				},
+				{
+					"A": "Les réservations doivent être faites avant un jour minimum de la date souhaitée. Par exemple: si aujourd’hui est lundi, vous pouvez réserver à partir de mardi (si le fournisseur de services est ouvert le mardi, sinon, vous ne pouvez réserver que le jour ouvrable le plus proche.).",
+					"Q": "Combien de temps puis-je prendre rendez-vous avec le prestataire de services?"
+				}
+			],
+			"General": [
+				{
+					"A": "Liberrex n’est disponible que dans certains pays pour le moment car nous n’avons pas encore les outils et les ressources humaines pour étendre notre service dans certains pays. Si vous pensez qu’il y a une énorme demande sur Liberrex dans votre pays, veuillez nous envoyer un e-mail à contact@liberrex.com et nous ferons de notre mieux pour le mettre en service dans le pays souhaité.",
+					"Q": "Pourquoi Liberrex n'est pas disponible dans mon pays?"
+				},
+				{
+					"A": "Vous pouvez signaler des bogues ou des problèmes en contactant notre équipe d'assistance sur support@liberrex.com",
+					"Q": "Comment signaler un bug ou un problème?"
+				},
+				{
+					"A": "Pour nous contacter vous pouvez nous envoyer un email sur contact@liberrex.com",
+					"Q": "Comment puis-je contacter l'équipe Liberrex?"
+				}
+			],
+			"Terms": [
+				{
+					"A": "Liberrex devrait fournir des informations personnelles de base sur chaque utilisateur réservant ou rejoignant une liste d'attente pour aider le prestataire de services à décider qui devrait être autorisé à visiter son site et qui ne devrait pas le faire.",
+					"Q": "Pourquoi Liberrex partage mes données avec le fournisseur de services?"
+				},
+				{
+					"A": "Certes, vous pouvez demander la suppression de l’historique complet en envoyant un e-mail à notre équipe d’assistance sur support@liberrex.com, y compris votre numéro de téléphone au format international.",
+					"Q": "Puis-je demander de supprimer mon historique complet?"
+				},
+				{
+					"A": "Si vous pensez que vos données personnelles sont utilisées de manière abusive, veuillez envoyer un e-mail à notre équipe de protection des données sur privacy@liberrex.com. Veuillez vous assurer de fournir le plus de détails possible pour aider l’équipe à résoudre le problème dans les brefs délais. Vous pouvez également fournir votre numéro de téléphone personnel et un membre de notre équipe vous appellera pour discuter du problème plus en détail.",
+					"Q": "Comment signaler une utilisation abusive des données personnelles?"
+				}
+			],
+			"WaitingList": [
+				{
+					"A": "Pour rejoindre une liste/file d’attente, il faut tout simplement aller sur la page du fournisseur de service souhaité et cliquer sur joindre la file d’attente dans la barre de droite. Cette opération n’est acceptée que lorsque vous êtes connecté et si ce n’est pas le cas, il suffit de créer un compte et se connecter. Une fois connecté, il vous sera demandé de sélectionner une liste d’attente et le (s) service (s) souhaité (s) et enfin de cliquer sur confirmer.",
+					"Q": "Comment puis-je rejoindre une liste d'attente à distance?"
+				},
+				{
+					"A": "Le temps d'attente estimé est calculé à l'aide de nos algorithmes avancés basés sur l'apprentissage automatique et l'intelligence artificielle. Liberrex estime que la précision du temps d'attente se situe entre 70% et 90% selon le prestataire de services et la catégorie / industrie.",
+					"Q": "Quelle est la précision du temps d'attente estimé?"
+				},
+				{
+					"A": "Si vous manquez votre tour, vous serez automatiquement repoussé dans la file d'attente. Cette règle ne s'applique qu'une seule fois, si vous manquez votre tour deux fois, votre billet sera automatiquement annulé.",
+					"Q": "Que se passe-t-il si je rate mon tour?"
+				},
+				{
+					"A": "Vous ne pouvez pas mettre à jour votre billet mais également vous pouvez l’annuler et demander à rejoindre la liste d’attente à nouveau. Veuillez noter que si vous annulez votre billet, vous risquez de perdre votre rang dans la liste d’attente.",
+					"Q": "Puis-je mettre à jour ou annuler mon billet?"
+				},
+				{
+					"A": "Si vous pensez que vous serez en retard et que vous manquerez votre tour, vous pouvez en informer le fournisseur de services à l'aide de votre ticket Web ou mobile",
+					"Q": "Puis-je demander plus de temps avant d'être servi?"
+				}
+			]
+		},
+		"Terms": "Termes et Conditions",
+		"Title": "Questions fréquemment posées",
+		"WaitingList": "Liste d'attente"
+	},
+	"Footer": {
+		"ContactUs": "Contactez nous",
+		"HelpfulLinks": "Liens utiles",
+		"Legal": "Liberrex Ltd, constituée en Angleterre et au Pays de Galles (11797740)",
+		"PrivacyPolicy": "Politique de confidentialité",
+		"TermsAndCondition": "Termes et Conditions",
+		"TopCategories": "Top catégories"
+	},
+	"Header": {
+		"Menu": {
+			"BusinessOwner": "Fournisseur",
+			"BusinessRegister": "Créer un compte",
+			"Categories": "Catégories",
+			"FAQ": "FAQ",
+			"Home": "Accueil",
+			"Login": "S'identifier",
+			"MyAccount": "Mon compte",
+			"SystemStatus": "Etat du système",
+			"Organizations": "Organisations"
+	}
+	},
+	"Home": {
+		"CouponsDiscount": "Remise",
+		"CouponsGetCoupon": "Obtenez un coupon",
+		"CouponsOff": "De",
+		"CouponsTitle": "Coupons et offres",
+		"MobileAppListItem_1": "Trouver des fournisseurs de services à proximité",
+		"MobileAppListItem_2": "Rejoignez les files d'attente ou prenez rendez-vous",
+		"MobileAppListItem_3": "Évitez les retards et les longues heures d'attente",
+		"MobileAppListItem_4": "Partagez vos précieux commentaires avec nous",
+		"MobileAppSubTitle": "Obtenir l'application!",
+		"MobileAppTitle": "Fatigué des salles d'attente?",
+		"TopRatedInYourArea": "Les mieux notés dans votre région"
+	},
+	"Map": {
+		"Filter": {
+			"Distance": "Distance",
+			"Industry": "Catégorie",
+			"SubIndustry": "Sous Catégorie",
+			"Keyword": "Que cherchez-vous?",
+			"Search": "Chercher",
+			"Title": "Filtrer la recherche",
+			"WaitingTime": "Temps d'attente"
+		},
+		"SearchHere": "Cherche ici"
+	},
+	"RecentlyVisited": {
+		"Empty": {
+			"Text": "Veuillez vérifier à nouveau plus tard ..",
+			"Title": "Vous n'avez visité aucun endroit récemment"
+		}
+	},
+	"Search": {
+		"ApplyButton": "Chercher",
+		"Distance": "Choisissez la distance",
+		"DistanceKm": "km",
+		"Empty": {
+			"Text": "Pardon! Nous ne trouvons pas de prestataires de services correspondant à vos critères de recherche",
+			"Title": "Aucun fournisseur de services"
+		},
+		"FilterListing": "Filtre de recherche",
+		"Filters": {
+			"Rating": "Trier par note",
+			"Services": "Trier par services",
+			"Type": "Sort by Sub-Industries",
+			"comment": ""
+		},
+		"Home": "Accueil",
+		"MoreFilters": "Plus de filtres",
+		"Of": "De",
+		"Providers": "Fournisseurs",
+		"Showing": "Montrant",
+		"Title": "Chercher"
+	},
+	"Vendor": {
+		"ChooseMember": "Choisir un agent ",
+		"Optional": "Optionnelle",
+		"Attachments": "Pièce(s) jointe(s)",
+		"AttachmentsPlaceholder": "Cliquez ici pour sélectionner les fichiers <br>(seules les images et PDF sont acceptés)",
+		"AvailableSlots": "Heures disponibles",
+		"BookNow": "Reserver maintenant",
+		"Booking": "Réservation",
+		"BookingSummary": "Résumé",
+		"BookingSummaryAttachments": "Pièce(s) jointe(s)",
+		"BookingSummaryDate": "Date",
+		"BookingSummaryDateRequestBook": "Demande de réservation",
+		"BookingSummaryDuration": "Durée",
+		"BookingSummaryServices": "Services",
+		"BookingSummarySlot": "Fente",
+		"BookingSummaryTime": "Temps",
+		"BusinessHours": "Heures de travail",
+		"Closed": "Fermé",
+		"ClosedNow": "Fermé maintenant",
+		"Confirmation": {
+			"Button": "Mes réservations",
+			"ButtonGoBooking": "Mes réservations",
+			"ButtonGoHome": "Page d'accueil",
+			"Header": "Merci pour votre demande de réservation!",
+			"Text": "Votre demande de réservation a été transmise au prestataire de services, nous vous en informerons dès qu'une décision sera prise."
+		},
+		"CustomersWaiting": "Clients en attente",
+		"DateTimePicker": "Choix de la date et de l'heure",
+		"Departments": "Départements",
+		"DepartmentsPlaceholder": "Veuillez sélectionner un département",
+		"EstWaitingTime": "Temps d'attente ",
+		"EstimatedWaitingTime": "Temps d'attente ",
+		"Gallery": "galerie",
+		"Guest": "Client_",
+		"JoinQueue": "Rejoindre la liste d'attente",
+		"JoinVipQueue": "Rejoignez la liste d'attente VIP",
+		"Location": "Emplacement",
+		"Minutes": "Minutes",
+		"NoAvailableSlots": "Aucun créneau horaire disponible pour la réservation.",
+		"Open": "Ouvrir",
+		"OpenNow": "Ouvert",
+		"Overview": "Vue d'ensemble",
+		"QueueConfirmation": {
+			"Button": "Mes billets",
+			"ButtonGoBooking": "Mes billets",
+			"ButtonGoHome": "Page d'accueil",
+			"Header": "Merci d'avoir demandé à vous inscrire sur la liste d'attente!",
+			"Text": "Votre demande d'adhésion à la liste d'attente a été envoyée au prestataire de services, nous vous en informerons dès qu'une décision sera prise."
+		},
+		"QueueError": {
+			"Button": "Fermer",
+			"ButtonClose": "Fermer",
+			"Header": "Pardon! Nous ne pouvons pas continuer",
+			"Text": "Soit vous êtes déjà sur la liste d'attente, soit une erreur technique s'est produite."
+		},
+		"QueueSummary": "Résumé",
+		"QueueSummaryQueue": "Liste d'attente",
+		"QueueSummaryRequestJoinButton": "Demande d'adhésion",
+		"QueueSummaryServiceDuration": "Durée du service",
+		"QueueSummaryWaitingTime": "Temps d'attente",
+		"Reviews": "Avis",
+		"Save": "sauvegarder",
+		"Services": "Services",
+		"Share": "Partager",
+		"SimilarPlaces": "Lieux similaires",
+		"VIP": "VIP",
+		"Validation": {
+			"AddAttchament": "Veuillez ajouter une pièce jointe",
+			"SelectDate": "Veuillez choisir une date",
+			"SelectService": "Veuillez sélectionner un ou plusieurs services",
+			"SelectSlot": "Veuillez sélectionner une heure",
+			"Title": "Impossible de continuer"
+		},
+		"VipBookingList": "Réservation VIP",
+		"VipBookingLists": "Réservation VIP",
+		"WaitingList": "Liste d'attente",
+		"WaitingLists": "Listes d'attente"
+	}
+}

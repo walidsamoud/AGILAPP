@@ -1,0 +1,413 @@
+{
+	"Account": {
+		"BookingItem": {
+			"CancelBooking": "Cancel Booking",
+			"Date": "Date",
+			"Details": "Details",
+			"ModalClose": "Close",
+			"ModalTitle": "Booking Details",
+			"Services": "Services",
+			"Time": "Time"
+		},
+		"Bookings": "Bookings",
+		"BookingsEmpty": {
+			"Archived": {
+				"Text": "Please check again later..",
+				"Title": "No Archived Bookings"
+			},
+			"Confirmed": {
+				"Text": "Please check again later..",
+				"Title": "No Active Bookings"
+			},
+			"Pending": {
+				"Text": "Please check again later..",
+				"Title": "No Pending Requests"
+			}
+		},
+		"Logout": "Log Out",
+		"PersonalDetails": "Personal Details",
+		"RecentlyVisited": "Recently Visited",
+		"Settings": "Settings",
+		"Tabs": {
+			"Archived": "Archived",
+			"Confirmed": "Confirmed",
+			"Pending": "Pending"
+		},
+		"TicketItem": {
+			"CancelTicket": "Cancel Ticket",
+			"Details": "Details",
+			"ModalClose": "Close",
+			"Number": "Ticket Number",
+			"Queue": "Queue",
+			"Rank": "Rank",
+			"RequestTime": "Requested Time",
+			"ServiceTime": "Service Time",
+			"Services": "Services",
+			"WaitingTime": "Waiting Time"
+		},
+		"Tickets": "Tickets",
+		"TicketsEmpty": {
+			"Archived": {
+				"Text": "Please check again later..",
+				"Title": "No Archived Tickets"
+			},
+			"Confirmed": {
+				"Text": "Please check again later..",
+				"Title": "No Active Tickets"
+			},
+			"Pending": {
+				"Text": "Please check again later..",
+				"Title": "No Pending Requests"
+			}
+		},
+		"UpdateMyDetails": "Update my details",
+		"UpdateMyDetailsSaveButton": "Save changes",
+		"UpdateNotificationError": {
+			"Message": "Cannot updated account information!",
+			"Title": "Sorry"
+		},
+		"UpdateNotificationSuccess": {
+			"Message": "Account information updated!",
+			"Title": "Successful"
+		}
+	},
+	"Authentication": {
+		"AcceptTermsAndConditions": "I accept all terms and conditions.",
+		"AlreadyHasCode": "I already have a verification code",
+		"CodePlaceholder": "Code",
+		"Email": "Email",
+		"EnterPhoneNumber": "Enter a phone number",
+		"FirstName": "First Name",
+		"LastName": "Last Name",
+		"LogIn": "Log In",
+		"Login": "Login",
+		"NoAccountMatches": "No account matches ",
+		"PhoneIsAlreadyUsed": "is already used!",
+		"PleaseRegister": "Please register",
+		"Register": "Register",
+		"SendVerificationCode": "Send Verification Code",
+		"Image": "Image"
+	},
+	"Booking": {
+		"CancelNotificationError": {
+			"Message": "Cannot cancel booking",
+			"Title": "Sorry"
+		},
+		"CancelNotificationSuccess": {
+			"Message": "Booking canceled successfully!",
+			"Title": "Successful"
+		}
+	},
+	"Categories": {
+		"Automotive": "Automotive",
+		"Banking": "Banking",
+		"Beauty": "Beauty",
+		"Government": "Government",
+		"Healthcare": "Healthcare",
+		"Home": "Home",
+		"Providers": "Providers",
+		"Telecommunication": "Telecommunication",
+		"Title": "Categories"
+	},
+	"SubCategories": {
+		"Title": "Our departments",
+		"Doctor": "Doctor"
+	},
+	"Organizations": {
+		"Home": "Home",
+		"Title": "Organizations",
+		"Branch": "Working Branch"
+	},
+	"_comment": "ar",
+	"Countries": {
+		"FR": "France",
+		"GB": "Great Britain",
+		"RU": "Russia",
+		"TN": "Tunisia"
+	},
+	"Days": {
+		"Friday": "Friday",
+		"Monday": "Monday",
+		"Saturday": "Saturday",
+		"Sunday": "Sunday",
+		"Thursday": "Thursday",
+		"Tuesday": "Tuesday",
+		"Wednesday": "Wednesday"
+	},
+	"FAQ": {
+		"Accounts": "Accounts",
+		"Booking": "Booking",
+		"GeneralHelp": "General Help",
+		"Policy": "Privacy Policy",
+		"QandAs": {
+			"Accounts": [
+				{
+					"A": "To create an account, click on the Blue button lcoated on the right side of the top menu. You will be redirected to a login page where you have to click on the register option in the tab. You should select your country, enter the phone number and your personal details. Click on register button and you will be redirected to your Liberrex account.",
+					"Q": "How do I create an account?"
+				},
+				{
+					"A": "To make sure that every account is unique and belong to only one customer, we request the phone number and we use it as a unique and personal identifier of every user.",
+					"Q": "Why do I need to provide my phone number?"
+				},
+				{
+					"A": "Your personal information is shared with the service provider, so whenever you make a reservation or join a waiting list, we need to ensure that the service provider knows who you are",
+					"Q": "Why do I have to provide my full name?"
+				},
+				{
+					"A": "Unfortunately you can't, for security reasons. We do NOT use Guest mode or annoying reservations / waiting list tickets.",
+					"Q": "Can I book or join a waiting list as a guest?"
+				},
+				{
+					"A": "You can delete your account through sending an email to our support team on support@liberrex.com including your phone number in an international format.",
+					"Q": "Can I delete my account?"
+				}
+			],
+			"Booking": [
+				{
+					"A": "To book with a service provider you can simply go on their page and click on book now using the button on right side bar. If you are not logged in, you will be asked to login or create an account. Once logged in, you will have to choose the desired date, time and service(s) then click on confirm.",
+					"Q": "How do I book with a service provider through Liberrex?"
+				},
+				{
+					"A": "Every booking should belong to specific customer, without your personal information we will not be able to create a booking or inform your service provider.",
+					"Q": "Why do I need to be logged in before booking?"
+				},
+				{
+					"A": "Not all booking requests are instantly confirmed, it depends on the service provider. Some service providers prefer to manually review booking requests and some do setup rules that will allow them to automatically approve or decline booking requests.",
+					"Q": "Is the booking instantly confirmed?"
+				},
+				{
+					"A": "You can't update your reservation but you can cancel it and start a new reservation",
+					"Q": "Can I update or cancel my booking?"
+				},
+				{
+					"A": "Reservations must be made at least one day before the desired date. For example: if today is Monday, you can book from Tuesday (if the service provider is open on Tuesday, otherwise you can only book on the nearest working day).",
+					"Q": "How soon can I book an appointment with the service provider?"
+				}
+			],
+			"General": [
+				{
+					"A": "Liberrex is only available in certain countries at the moment as we don't have the tools and human resources to expand our service in some countries yet. If yo believe there's a huge demand on Liberrex in your country, please email us on contact@liberrex.com and we will do our best to get it up and running in the desired country.",
+					"Q": "Why is Liberrex not available in my country?"
+				},
+				{
+					"A": "Of course, you can request deletion of the entire history by sending an e-mail to our support team at support@liberrex.com, including your phone number in international format.",
+					"Q": "How do I report a bug or an issue?"
+				},
+				{
+					"A": "To get in touch with us you can email us on contact@liberrex.com",
+					"Q": "How can I get in touch with Liberrex Team?"
+				}
+			],
+			"Terms": [
+				{
+					"A": "Liberrex should provide basic personal information about every user booking or joining a waiting list to help the service provider make a decision about who should be allowed to visit his venue and who not.",
+					"Q": "Why is Liberrex sharing my data with the service provider?"
+				},
+				{
+					"A": "Of course, you can request deletion of the entire history by sending an e-mail to our support team at support@liberrex.com, including your phone number in international format.",
+					"Q": "Can I request to delete my full history?"
+				},
+				{
+					"A": "If you think that your personal data is being misused, please email our data protection team at privacy@liberrex.com. Please be sure to provide as much detail as possible to help the team resolve the issue in a timely manner. You can also provide your personal phone number and a member of our team will call you to discuss the issue in more detail.",
+					"Q": "How can I report an abusive usage of personal data?"
+				}
+			],
+			"WaitingList": [
+				{
+					"A": "To join the queue, simply go to the page of the desired service provider and click on join queue in the right bar. This operation is only accepted when you are logged in and if you are not, simply create an account and log in. Once logged in, you will be asked to select a queue and the desired service(s) and finally click on confirm.",
+					"Q": "How can I join a waiting list from distance?"
+				},
+				{
+					"A": "The estimated waiting time is calculated using our advanced algorithms that are based on Machine Learning and Artificial Intelligence. Liberrex estimates the waiting time accuracy to be between 70% and 90% depending on the service provider and on the business category/industry.",
+					"Q": "How accurate is the estimated waiting time?"
+				},
+				{
+					"A": "If you miss your turn, you will automatically pushed back in the queue. This rule only apply once, if you miss your turn twice your ticket will automatically canceled.",
+					"Q": "What happens if I miss my turn?"
+				},
+				{
+					"A": "You cannot update your ticket but you can also cancel it and ask to join the waiting list again. Please note that if you cancel your ticket, you may lose your place on the waiting list.",
+					"Q": "Can I update or cancel my ticket?"
+				},
+				{
+					"A": "If you think you will be running late and will miss your turn, you can inform the service provider using your web or mobile ticket.",
+					"Q": "Can I request more time before getting served?"
+				}
+			]
+		},
+		"Terms": "Terms & Conditions",
+		"Title": "Frequently Asked Questions",
+		"WaitingList": "Waiting List"
+	},
+	"Footer": {
+		"ContactUs": "Contact Us",
+		"HelpfulLinks": "Helpful Links",
+		"Legal": "Liberrex Ltd, incorporated in England and Wales (11797740)",
+		"PrivacyPolicy": "Privacy Policy",
+		"TermsAndCondition": "Terms & Conditions",
+		"TopCategories": "Top Categories"
+	},
+	"Header": {
+		"Menu": {
+			"BusinessOwner": "Provider",
+			"BusinessRegister": "Create an account",
+			"Categories": "Categories",
+			"Organizations": "Organizations",
+			"_comment": "ar",
+			"FAQ": "FAQ",
+			"Home": "Home",
+			"Login": "Login",
+			"MyAccount": "My Account",
+			"SystemStatus": "System Status"
+		}
+	},
+	"Home": {
+		"CouponsDiscount": "Discount",
+		"CouponsGetCoupon": "Get Coupon",
+		"CouponsOff": "Off",
+		"CouponsTitle": "Coupons & Deals",
+		"MobileAppListItem_1": "Find nearby service providers",
+		"MobileAppListItem_2": "Join queues or book appointments",
+		"MobileAppListItem_3": "Avoid delays and long waiting hours",
+		"MobileAppListItem_4": "Share your valuable feedback with us",
+		"MobileAppSubTitle": "Get the App!",
+		"MobileAppTitle": "Tired of waiting rooms?",
+		"TopRatedInYourArea": "Top Rated In Your Area",
+		"Testimonial": {
+			"Title": "People Talking about us"
+		}
+	},
+	"Map": {
+		"Filter": {
+			"Distance": "Distance",
+			"Industry": "Category",
+			"SubIndustry": "SubCategory",
+			"Type": "Service Type",
+			"comment": "",
+			"Keyword": "What are you looking for?",
+			"Search": "Search",
+			"Title": "Filter search",
+			"WaitingTime": "Waiting Time"
+		},
+		"SearchHere": "Search Here"
+	},
+	"RecentlyVisited": {
+		"Empty": {
+			"Text": "Please check again later..",
+			"Title": "You didn't visit any places recently"
+		}
+	},
+	"Search": {
+		"ApplyButton": "Search",
+		"Distance": "Choose distance",
+		"DistanceKm": "Km",
+		"Empty": {
+			"Text": "Sorry! We are unable to find service providers that match your search criteria",
+			"Title": "No services providers"
+		},
+		"FilterListing": "Search Filter",
+		"Filters": {
+			"Rating": "Sort by Rating",
+			"Services": "Sort by Services",
+			"Type": "Sort by Sub-Industries",
+			"comment": ""
+		},
+		"Home": "Home",
+		"MoreFilters": "More Filters",
+		"Of": "of",
+		"Providers": "Providers",
+		"Showing": "Showing",
+		"Title": "Search"
+	},
+	"Vendor": {
+		"ChooseMember": "Choose an agent",
+		"Optional": "Optional",
+		"Attachments": "Attachment(s)",
+		"AttachmentsPlaceholder": "Click here to select files <br>(Only images and PDF accepted)",
+		"AvailableSlots": "Available Times",
+		"BookNow": "Book Now",
+		"Booking": "Booking",
+		"BookingSummary": "Booking Summary",
+		"BookingSummaryAttachments": "Attachment(s)",
+		"BookingSummaryDate": "Date",
+		"BookingSummaryDateRequestBook": "Request To Book",
+		"BookingSummaryDuration": "Duration",
+		"BookingSummaryServices": "Services",
+		"BookingSummarySlot": "Slot",
+		"BookingSummaryTime": "Time",
+		"BusinessHours": "Business Hours",
+		"Closed": "Closed",
+		"ClosedNow": "Closed Now",
+		"Confirmation": {
+			"Button": "My Bookings",
+			"ButtonGoBooking": "My Bookings",
+			"ButtonGoHome": "Home Page",
+			"Header": "Thank you for your booking request!",
+			"Text": "Your booking request has been sent to the service provider, we will notify you as soon as a decision is made."
+		},
+		"CustomersWaiting": "Customers Waiting",
+		"DateTimePicker": "Date and Time Picking",
+		"Departments": "Departments",
+		"DepartmentsPlaceholder": "Please select a department",
+		"EstWaitingTime": "Waiting Time",
+		"EstimatedWaitingTime": "Waiting Time",
+		"Gallery": "Gallery",
+		"Guest": "Guest_",
+		"JoinQueue": "Join Waiting List",
+		"JoinVipQueue": "Join VIP Waiting List",
+		"Location": "Location",
+		"Minutes": "minutes",
+		"NoAvailableSlots": "No available time slot for booking..",
+		"Open": "Open",
+		"OpenNow": "Open Now",
+		"Overview": "Overview",
+		"QueueConfirmation": {
+			"Button": "My Tickets",
+			"ButtonGoBooking": "My Tickets",
+			"ButtonGoHome": "Home Page",
+			"Header": "Thank you for your requesting to join the waiting list!",
+			"Text": "Your waiting list joining request has been sent to the service provider, we will notify you as soon as a decision is made."
+		},
+		"QueueError": {
+			"Button": "Close",
+			"ButtonClose": "Close",
+			"Header": "Sorry! We are unable to proceed",
+			"Text": "Either you are already in the waiting list or a technical error occurred."
+		},
+		"QueueSummary": "Summary",
+		"QueueSummaryQueue": "Waiting List",
+		"QueueSummaryRequestJoinButton": "Request to join",
+		"QueueSummaryServiceDuration": "Service Duration",
+		"QueueSummaryWaitingTime": "Waiting Time",
+		"Reviews": "Reviews",
+		"Save": "Save",
+		"Services": "Services",
+		"AdditionalFields" : "More Information",
+		"MapInput": "Pin your location",
+		"Share": "Share",
+		"SimilarPlaces": "Similar Places",
+		"VIP": "Vip",
+		"Validation": {
+			"AddAttchament": "Please add an attachment",
+			"SelectDate": "Please select a date",
+			"SelectService": "Please select one or more services",
+			"SelectSlot": "Please select a time",
+			"Title": "Unable to proceed",
+			"AdditionalFields" : "Please complete the more information's section",
+			"Location": "Please pin your location"
+		},
+		"VipBookingList": "VIP Booking",
+		"VipBookingLists": "VIP Booking",
+		"WaitingList": "Waiting List",
+		"WaitingLists": "Waiting Lists"
+	},
+	"MetaTags": {
+		"Title": "",
+		"Description": "Customer flow, queue and booking, management software.",
+		"Keywords": "Queue, Booking, Waiting, Flow Management, Customer Satisfaction, Customer Feedback, Productivity",
+		"IndustryKeywords": [
+			"",
+			"Doctor, Booking, Book Now, Healthcare, Join Waiting List, Waiting Time, Queue, Consultation"
+		]
+	}
+}
